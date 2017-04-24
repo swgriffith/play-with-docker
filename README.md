@@ -7,6 +7,11 @@ Under the hood DIND or Docker-in-Docker is used to give the effect of multiple V
 
 A live version is available at: http://play-with-docker.com/
 
+## Deploying to Azure
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fswgriffith%2Fplay-with-docker%2Fmaster%2Fazuredeploy.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
 ## Requirements
 
 Docker 1.13+ is required. 
