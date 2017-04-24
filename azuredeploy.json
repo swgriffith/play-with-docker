@@ -46,12 +46,6 @@
         "description": "Admin password on all VMs."
       }
     },
-    "scriptFileName": {
-      "type": "string",
-      "metadata": {
-        "description": "the file name of the script configuring the VMs in the scale set"
-      }
-    },
     "_artifactsLocation": {
       "type": "string",
       "metadata": {
@@ -306,9 +300,8 @@
                   "autoUpgradeMinorVersion": false,
                   "settings": {
                     "fileUris": [
-                      "[concat(parameters('_artifactsLocation'), '/', parameters('scriptFileName'))]"
-                    ],
-                  "commandToExecute":"./setupPWD.sh"
+                      "[parameters('_artifactsLocation')]"],
+                    "commandToExecute": "./setupPWD.sh"
                   }
                 }
               }
