@@ -307,9 +307,9 @@
                   "settings": {
                     "fileUris": [
                       "[concat(parameters('_artifactsLocation'), '/', parameters('scriptFileName'))]"
-                    ]
-                  },
+                    ],
                   "commandToExecute":"./setupPWD.sh"
+                  }
                 }
               }
             ]
