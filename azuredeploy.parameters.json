@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_A2"
+    },
+    "ubuntuOSVersion":{
+      "value": "16.04.0-LTS"
+    },
+    "vmssName": {
+      "value": "pwdvms"
+    },
+    "capacity": {
+      "value": 2
+    },
+    "adminUsername": {
+      "value": "griffith"
+    },
+    "adminPassword": {
+      "value": "Bronx10465Y8dpwmxq"
+    },
+   "_artifactsLocation" : {
+        "value" : "https://raw.githubusercontent.com/swgriffith/play-with-docker/master/setupPWD.sh"
+    },
+    "scriptFileName" : {
+      "value" : "setupPWD.sh"
+    }
+  }
+}
